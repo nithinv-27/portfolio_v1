@@ -1,4 +1,5 @@
 import React from 'react';
+import profile_pic from '../assets/images/profile_pic.jpeg';
 
 const About = () => {
   return (
@@ -41,8 +42,8 @@ const About = () => {
         {/* Image Section */}
         <div className="md:w-[30%] w-full">
           <img
-            src="/images/profile_pic.jpeg"
-            alt="Yashita Namdeo"
+            src={profile_pic}
+            alt="Taraka Nithin Vankala"
             className="w-full rounded-lg shadow-lg object-cover"
           />
         </div>

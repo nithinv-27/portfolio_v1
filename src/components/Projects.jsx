@@ -1,4 +1,7 @@
 import React from 'react';
+import car_img from '../assets/images/car_image_1.jpg';
+import email_img from '../assets/images/email_img.png';
+import face_recog_img from '../assets/images/face_recog_img.png';
 
 const Projects = () => {
   return (
@@ -10,7 +13,7 @@ const Projects = () => {
         {/* Left Column - Image */}
         <div className="md:w-1/2">
           <img
-            src="../../public/images/car_image_1.jpg"
+            src={car_img}
             alt="Car Bidding Website"
             className="w-full rounded-lg shadow-lg object-cover"
           />
@@ -41,7 +44,7 @@ const Projects = () => {
         {/* Left Column - Image */}
         <div className="md:w-1/2">
           <img
-            src="../../public/images/email_img.png"
+            src={email_img}
             alt="Custom Email Sender"
             className="w-full rounded-lg shadow-lg object-cover"
           />
@@ -73,7 +76,7 @@ const Projects = () => {
         {/* Left Column - Image */}
         <div className="md:w-1/2">
           <img
-            src="../../public/images/face_recog_img.png"
+            src={face_recog_img}
             alt="Emotion and Facial Recognition"
             className="w-full rounded-lg shadow-lg object-cover"
           />

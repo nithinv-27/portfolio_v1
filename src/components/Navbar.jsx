@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from 'react-scroll'; // Importing Link from react-scroll
+import logo from '../assets/images/logo_2.png';
+import resume from '../assets/Taraka_Nithin_Vankala.pdf';
 
 const Navbar = () => {
   return (
     <div className='flex justify-between py-7 mx-12 text-slate-300 items-center'>
       <a href="/">
       <img 
-        src="../../public/images/logo_2.png" 
-        alt="Logo" 
+        src={logo}
+        alt="Taraka Nithin Vankala" 
         className="w-16 h-auto" // Adjust the width and auto for height to keep the aspect ratio
       />
       </a>
@@ -32,8 +34,7 @@ const Navbar = () => {
           <div>Contact</div>
         </Link>
 
-        {/* Scroll to the 'Resume' section */}
-        <a href='../../public/Taraka_Nithin_Vankala.pdf' target='_blank' className="className='text-[#64ffda] border-[#64ffda] border-2 px-4 py-2  rounded-md hover:bg-[#64ffda] hover:bg-opacity-10 transition-all duration-300 ease-in-out">
+        <a href={resume} target='_blank' className="className='text-[#64ffda] border-[#64ffda] border-2 px-4 py-2  rounded-md hover:bg-[#64ffda] hover:bg-opacity-10 transition-all duration-300 ease-in-out">
           Resume
         </a>
       </div>
