@@ -80,7 +80,7 @@ const Navbar = () => {
         <a
           href={resume}
           target="_blank"
-          className="block py-2 text-[#64ffda] border-[#64ffda] border-2 px-4 py-2 rounded-md hover:bg-[#64ffda] hover:bg-opacity-10 transition-all duration-300 ease-in-out"
+          className="block text-[#64ffda] border-[#64ffda] border-2 px-4 py-2 rounded-md hover:bg-[#64ffda] hover:bg-opacity-10 transition-all duration-300 ease-in-out"
         >
           Resume
         </a>
